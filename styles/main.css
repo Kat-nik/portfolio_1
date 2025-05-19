@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6, p, hr, figure, blockquote {
   color: var(--co-white);
   text-transform: uppercase;
   background-color: var(--co-blue);
+  transition: opacity 0.3s ease;
 }
 
 .btn:hover,
@@ -146,6 +147,7 @@ h1, h2, h3, h4, h5, h6, p, hr, figure, blockquote {
   color: var(--co-dark-grey);
   white-space: nowrap;
   text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
 .navbar__nav-item:hover {
@@ -526,17 +528,10 @@ hr {
   color: var(--co-blue);
 }
 
-.footer__male {
-}
-
 .footer__male:hover {
   color: var(--co-blue);
 }
 
-.footer__society {
-}
-.society {
-}
 .footer__design {
   height: 60px;
   background-color: var(--co-black);

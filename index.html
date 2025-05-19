@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/fontello.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Konstruct Template</title>
+</head>
+<body>
+  <header class="header" aria-label="section header" id="header-id">
+    <img class="logo header__logo" src="img/company-logo-white.svg" alt="logo">
+    <h1 class="header__title">Partner with konstuct</h1>
+    <p class="header__desc">An award-winning construction management firm</p>
+    <p class="header__text-down"><a href="#footer-id">Scroll down</a></p>
+  </header>
+
+  <main>
+    <section class="navbar" aria-label="section navigation">
+      <div class="container">
+        <div class="navbar__wrapper">
+          <img class="logo navbar__logo" src="img/company-logo-black.svg" alt="logo">
+          <nav class="navbar__nav" aria-label="navigation">
+            <ul class="navbar__nav-list" aria-label="navigation list">
+              <li class="navbar__nav-item">
+                <a href="#header-id" class="navbar__nav-link">Home</a>
+              </li>
+              <li class="navbar__nav-item">
+                <a href="#about-id" class="navbar__nav-link">About</a>
+              </li>
+              <li class="navbar__nav-item">
+                <a href="#services-id" class="navbar__nav-link">Services</a>
+              </li>
+              <li class="navbar__nav-item">
+                <a href="#work-id" class="navbar__nav-link">Work</a>
+              </li>
+              <li class="navbar__nav-item">
+                <a href="#footer-id" class="navbar__nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="mobile-navigation" aria-label="mobile navigation">
+            <a class="burger sidenav-trigger">
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <section class="about" aria-label="section about" id="about-id">
+      <div class="container">
+        <h2 class="about__title title-h2">Our story</h2>
+        <div class="about__line line"></div>
+        <div class="about__wrapper">
+          <div class="about__info">
+            <h3 class="about__subtitle">Founded in 2011 by John Mathew Smith, <span class="about__span">Konstruct</span> has become the number one construction management firm</h3>
+            <p class="about__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          </div>
+          <div class="about__cards">
+            <div class="about__card">
+              <h4 class="about__text">We plan</h4>
+            </div>
+            <div class="about__card">
+              <h4 class="about__text">We manage</h4>
+            </div>
+            <div class="about__card">
+              <h4 class="about__text">We build</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" aria-label="section services" id="services-id">
+      <div class="container">
+        <div class="services__inner">
+          <h2 class="services__title title-h2">Our capabilities</h2>
+          <p class="services__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          <button class="btn services__btn">All services</button>
+        </div>
+        <div class="services__wrapper">
+          <div class="services__card">
+            <img src="img/servises_1.svg" alt="picture" class="services__card-img">
+            <h3 class="services__card-subtitle">Project and construction management</h3>
+            <p class="services__card-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          </div>
+          <div class="services__card">
+            <img src="img/services_2.svg" alt="picture" class="services__card-img">
+            <h3 class="services__card-subtitle">Structure audit and maintenance</h3>
+            <p class="services__card-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          </div>
+          <div class="services__card">
+            <img src="img/services_3.svg" alt="picture" class="services__card-img">
+            <h3 class="services__card-subtitle">Factory construction and modeling</h3>
+            <p class="services__card-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="touch" aria-label="section touch" id="work-id">
+      <h2 class="touch__title title-h2">Want to build something amazing?</h2>
+      <button class="btn touch__btn">Get in touch</button>
+    </section>
+
+    <section class="newsletter" aria-label="section newsletter">
+      <div class="newsletter__inner">
+        <h2 class="newsletter__title">Newsletter Signup</h2>
+
+        <form action="mailto:1@mail.ru" method="post" target="_blank" class="form">
+
+          <input type="email" name="email" placeholder="test@youremail.com" required class="form-control">
+        
+          <button type="submit" class="btn form-btn">Signup</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" aria-label="section footer" id="footer-id">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__company">
+          <h4 class="footer__title">Company</h4>
+          <img src="img/company-logo-white.svg" alt="logo" class="footer__logo logo">
+          <p class="footer_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__title">links</h4>
+          <div class="footer__inners">
+            <div class="footer__inner">
+              <h5 class="footer_subtitle"><a href="#header-id">Home</a></h5>
+              <h5 class="footer_subtitle"><a href="#about-id">About</a></h5>
+              <h5 class="footer_subtitle"><a href="#services-id">Services</a></h5>
+              <h5 class="footer_subtitle"><a href="#work-id">Projects</a></h5>
+              <h5 class="footer_subtitle"><a href="#footer-id">Contact us</a></h5>
+            </div>
+            <div class="footer__inner">
+              <h5 class="footer_subtitle"><a href="#">FAQ</a></h5>
+              <h5 class="footer_subtitle"><a href="#">Terms</a></h5>
+              <h5 class="footer_subtitle"><a href="#">Careers</a></h5>
+            </div>
+            <div class="footer__inner">
+              <h5 class="footer_subtitle"><a href="#">Blog</a></h5>
+              <h5 class="footer_subtitle"><a href="#">Partners</a></h5>
+              <h5 class="footer_subtitle"><a href="#">News</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <h4 class="footer__title">Contact us</h4>
+          <p class="footer__adres">213 Baker Street Oriel City Kounty 7000 KNW, Kountry Name </p>
+          <p class="footer__phone"><a href="tel:+79991112233">+23 994 233 4022</a></p>
+          <p class="footer__male"><a href="mailto:info@konstruct.com">info@konstruct.com</a></p>
+        </div>
+        <div class="footer__society">
+          <a href="#"><i class="icon-facebook-circled"></i></a>
+          <a href="#"><i class="icon-twitter-circled"></i></a>
+          <a href="#"><i class="icon-chrome"></i></a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer__design">
+      <p class="footer_design-desc">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+    </div>
+  </footer>
+
+</body>
+</html>

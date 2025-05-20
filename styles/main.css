@@ -469,7 +469,7 @@ hr {
   margin-bottom: 15px;
 }
 
-.footer_desc {
+.footer__desc {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 11px;
@@ -516,7 +516,7 @@ hr {
   margin-right: 45px;
 }
 
-.footer__adres {
+.footer__address {
   margin-bottom: 10px;
 }
 
@@ -528,7 +528,7 @@ hr {
   color: var(--co-blue);
 }
 
-.footer__male:hover {
+.footer__mail:hover {
   color: var(--co-blue);
 }
 
